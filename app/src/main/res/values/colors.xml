@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--blue-->
+    <!--color name="colorPrimary">#1875d1</color>
+    <color name="colorPrimaryDark">#004a9f</color>
+    <color name="colorAccent">#DAEAFF</color>-->
+
+    <!--black-->
+    <!--color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#DAEAFF</color-->
+
+    <!--light green-->
+    <color name="colorPrimary">#81C584</color>
+    <color name="colorPrimaryDark">#509556</color>
+    <color name="colorAccent">#81C584</color>
+    <color name="buttonTint">#E0F8E0</color>
+
+    <!--dark green-->
+    <!--color name="colorPrimary">#618662</color>
+    <color name="colorPrimaryDark">#47744A</color>
+    <color name="colorAccent">#E0F8E0</color-->
+
+</resources>

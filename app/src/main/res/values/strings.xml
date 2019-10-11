@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TopUp</string>
+    <string name="action_settings">Settings</string>
+    <string name="buy_data">Buy Data Bundle</string>
+    <string name="enter_bundle_option">Enter bundle option</string>
+    <string name="national_ID">Enter National ID</string>
+    <string name="title_text">Buy data bundles using M-Pesa</string>
+    <string name="select_package">Select any of the following packages</string>
+    <string name="package1">1. 500mb + 500sms + whatsapp @ Sh99</string>
+    <string name="package2">2. 150mb + 150sms + Whatsapp @ Sh50</string>
+    <string name="package3">3. 50mb + 50sms + Whatsapp @ Sh20</string>
+    <string name="package4">4. 15mb + 15sms @ Sh10</string>
+    <string name="package5">5. 7mb + 7sms @ Sh5</string>
+</resources>
