@@ -22,4 +22,9 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="promo_message">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
 </resources>

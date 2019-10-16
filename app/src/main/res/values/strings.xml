@@ -11,4 +11,6 @@
     <string name="package3">3. 50mb + 50sms + Whatsapp @ Sh20</string>
     <string name="package4">4. 15mb + 15sms @ Sh10</string>
     <string name="package5">5. 7mb + 7sms @ Sh5</string>
+    <string name="promo_title">Get more for less!</string>
+    <string name="buy_airtime">You can now buy airtime worth Ksh110 when you purchase airtime worth Ksh100.</string>
 </resources>

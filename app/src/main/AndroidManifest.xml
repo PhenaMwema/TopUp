@@ -28,12 +28,20 @@
             android:name ="com.hover.ApiKey"
             android:value ="579f6136b82400a90d8e2aa1a1bcf031"/>
 
-        <receiver android:name=".Receiver"
+        <!--receiver android:name=".Receiver"
             android:enabled="true"
-            android:exported="false">
-
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.phenamwema.topup.CONFIRMED_TRANSACTION"/>
+            </intent-filter>
+
+        </receiver-->
+
+        <receiver android:name=".Receiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
             </intent-filter>
 
         </receiver>

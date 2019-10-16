@@ -13,11 +13,12 @@ public class Receiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        String ussd_message = intent.getStringExtra("session_messages");
         String response = null;
         if(intent.hasExtra("transaction_extras")){
             HashMap<String, String> t_extras = (HashMap<String, String>)intent.getSerializableExtra("transaction_extras");
-            if(t_extras.containsKey("response_message"))
-                response = t_extras.get("response_message");
+            if(t_extras.containsKey("bundle"))
+                response = t_extras.get("session_messages");
             Toast.makeText(context,""+response,Toast.LENGTH_LONG).show();
         }
         /*Toast.makeText(context, "Message: "+ response,Toast.LENGTH_LONG).show();
